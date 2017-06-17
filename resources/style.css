@@ -50,3 +50,27 @@ a:hover {
   color: #66cdaa;
   text-decoration: none;
 }
+
+/* main section styling */
+
+main {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
