@@ -55,22 +55,35 @@ a:hover {
 
 main {
   display: flex;
+  border: 1px solid #000;
+  justify-content: space-around;
 }
 
 .column.large {
   width: 630px;
   display: flex;
   flex-direction: column;
+  border: 1px solid #000;
 }
 
 .column.medium {
   width: 300px;
   display: flex;
   flex-direction: column;
+  border: 1px solid #000;
 }
 
 .column.small {
   width: 240px;
   display: flex;
   flex-direction: column;
+  border: 1px solid #000;
+}
+
+.image-content {
+  border: 1px solid #000;
+}
+
+.text-content {
+  border: 1px solid #000;
 }
