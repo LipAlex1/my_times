@@ -110,6 +110,10 @@ main {
   color: black;
 }
 
+.lead-story .image-content span {
+  font-size: 40px;
+}
+
 .lead-story .image-content {         /* accesses element of image-content class inside parent element of class lead-story */
   background-image: url("./images/img-story-main.png");
 }
