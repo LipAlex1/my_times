@@ -89,6 +89,7 @@ main {
   font-size: 30px;
   color: #fff;
   display: flex;
+  text-align: center;
 }
 
 .narrative {
@@ -99,6 +100,7 @@ main {
 
 .lead-story .image-content span {
   font-size: 40px;
+  text-align: left;
 }
 
 /* 1st column styling */
@@ -152,4 +154,54 @@ main {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+}
+
+/* footer styling */
+
+footer {
+  width: 100%;
+  height: 325px;
+  background-color: #66cdaa;
+  margin-top: 150px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-nav {
+  display: inline-block;
+  padding: 20px 10px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav span {
+  padding: 20px 10px;
+}
+
+.footer-nav span a:hover {
+  color: #fff;
+}
+
+.title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
 }
