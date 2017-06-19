@@ -129,3 +129,7 @@ main {
 .cat-ceo.image-content {
   background-image: url("./images/img-story-1.png");
 }
+
+.stories {
+  display: flex;
+}
