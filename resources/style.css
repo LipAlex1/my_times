@@ -61,7 +61,6 @@ main {
   position: relative;
   top: 70px;
   display: flex;
-  border: 1px solid #000;
   justify-content: space-around;
 }
 
@@ -69,39 +68,27 @@ main {
   width: 630px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
 }
 
 .column.medium {
   width: 300px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
 }
 
 .column.small {
   width: 240px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
 }
 
 .image-content {
   height: 300px;
-  border: 1px solid #000;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: #fff;
   display: flex;
-}
-
-.text-content {
-  border: 1px solid #000;
-}
-
-.news-bites {
-  border: 1px solid #000;
 }
 
 .narrative {
@@ -132,4 +119,11 @@ main {
 
 .stories {
   display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
